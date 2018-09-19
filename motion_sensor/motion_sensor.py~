@@ -51,7 +51,7 @@ try:
 			#print(files)
 			#print(random.choice(files))
 			randomSong = random.choice(files)
-			music_file = path + randomSong
+			music_file =path + randomSong
 			# optional volume 0 to 1.0
 			volume = 0.2
 			play_music(music_file, volume)
